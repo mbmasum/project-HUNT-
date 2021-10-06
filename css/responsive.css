@@ -1,0 +1,691 @@
+@media(min-width: 320px) and (max-width: 575px){
+
+    nav i{
+        color: #fff;
+    }
+
+    nav ul{
+        background: #444444;
+        text-align: center;
+    }
+
+    nav ul li a::after{
+        display: none;
+    }
+
+    #banner-part .banner-1{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    #banner-part .banner-2{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    #banner-part .banner-3{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    #banner-part .overlay h2 {
+        font-size: 25px;
+    }
+    #banner-part .overlay h1 {
+        font-size: 45px;
+    }
+    #banner-part .overlay p{
+        width: auto;
+    }
+    #banner-part .prev {
+        top: 64%;
+        left: 40px;
+    }
+    #banner-part .next {
+        top: 64%;
+        right: 40px;
+    }
+    #banner-part .overlay a {
+        padding: 10px 15px;
+    }
+    .title h2 {
+        font-size: 30px;
+    }
+    .title p {
+        width: auto;
+    }
+    #banner-part .overlay {
+        padding: 100px 0;
+    }
+
+    #about-part .item-top .shape{
+        display: none;
+    }
+    #about-part .item-top{
+        margin: 15px 0;
+    }
+    #about-part .item-bottom{
+        margin: 15px 0;
+    }
+    #about-part .item-left{
+        margin: 15px 0;
+    }
+    #about-part .item-right{
+        margin: 15px 0;
+    }
+    #about-part .item-top i{
+        display: none;
+    }
+    #about-part .item-left .shape{
+        display: none;
+    }
+    #about-part .item-left i{
+        display: none;
+    }
+    #about-part .item-right .shape{
+        display: none;
+    }
+    #about-part .item-right i{
+        display: none;
+    }
+    #about-part .item-bottom .shape{
+        display: none;
+    }
+    #about-part .item-bottom i{
+        display: none;
+    }
+    #about-part .round {
+        width: 270px;
+        height: 270px;
+    }
+    #about-part .round .img {
+        width: 250px;
+        height: 250px;
+    }
+
+    #service-part {
+        margin-top: 50px;
+    }
+    #service-part .prev {
+        top: -30px;
+        left: 20%;
+        border: none;
+    }
+    #service-part .next {
+        top: -30px;
+        left: 80%;
+        border: none;
+    }
+    #service-part .service {
+        flex-direction: column;
+    }
+    #service-part .service .details {
+        width: 100%;
+    }
+    #service-part .service:nth-child(2n+1) {
+        flex-direction: column;
+    }
+    #service-part .service .title {
+        width: 100%;
+        justify-content: center;
+    }
+    #service-part .service:nth-child(2n+1) .title {
+        justify-content: center;
+    }
+    #service-part .service .logo {
+        margin: 25px 0;
+        width: 100%;
+    }
+    #service-part .line{
+        width: 0;
+    }
+    
+    #portfolio-part {
+        clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 100%);
+        margin-top: 60px;
+    }
+    #portfolio-part .overlay {
+        padding: 50px 0;
+    }
+    #portfolio-part .overlay .title p {
+        width: auto;
+    }
+    #portfolio-part .overlay .round {
+        width: 80px;
+        height: 80px;
+    }
+    #portfolio-part .overlay .round img{
+        position: absolute;
+        top: 4px;
+        left: -11px;
+    }
+    #portfolio-part .team-dot .dot {
+        width: 0px;
+    }
+    #portfolio-part .prev {
+        top: -15px;
+        left: 35%;
+    }
+    #portfolio-part .next {
+        top: -15px;
+        left: 70%;
+    }
+    #portfolio-part .bg .shape{
+        display: none;
+    }
+    #portfolio-part .bg {
+        margin-left: 0px;
+        width: auto;
+        margin-top: 0px;
+    }
+    #pricing-part {
+        margin-top: 60px;
+    }
+    #pricing-part .item {
+        margin: 15px 0;
+    }
+
+    #counter-part {
+        clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 100%);
+    }
+    #counter-part .angel {
+        transform: rotate(-0deg);
+    }
+    #counter-part .overlay{
+        padding: 0;
+    }
+    #counter-part .overlay .item {
+        margin: 10px 0;
+    }
+
+    #team-part .item {
+        margin-top: 25px;
+    }
+
+    #market-part {
+        clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 100%);
+        padding: 20px 0;
+    }
+    #market-part .angel {
+        transform: rotate(0deg);
+    }
+    #bottom-part .border {
+        transform: rotate(0deg);
+    }
+    #bottom-part .item {
+        border-left: 0px solid #555555;
+    }
+    #bottom-part .item {
+        margin: 15px 0;
+    }
+    #bottom-part .contact .icon i {
+        margin-left: 15px;
+    }
+    footer p {
+        font-size: 12px;
+    }
+
+
+
+
+
+}
+
+
+@media(min-width: 576px) and (max-width: 767px){
+    nav i{
+        color: #fff;
+    }
+
+    nav ul{
+        background: #444444;
+        text-align: center;
+    }
+
+    nav ul li a::after{
+        display: none;
+    }
+
+    #banner-part .overlay h2 {
+        font-size: 30px;
+    }  
+    #banner-part .prev {
+        top: 65%;
+    }  
+    #banner-part .next {
+        top: 65%;
+    }  
+    #banner-part .banner-1{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    #banner-part .banner-2{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    #banner-part .banner-3{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    #banner-part .overlay {
+        padding: 100px 0;
+    }
+    #banner-part .overlay a {
+        padding: 15px 20px;
+    }
+    #about-part .item-top .shape{
+        display: none;
+    }
+    #about-part .item-top i{
+        display: none;
+    }
+    #about-part .item-bottom .shape{
+        display: none;
+    }
+    #about-part .item-bottom i{
+        display: none;
+    }
+    #about-part .item-left .shape{
+        display: none;
+    }
+    #about-part .item-left i{
+        display: none;
+    }
+    #about-part .item-right .shape{
+        display: none;
+    }
+    #about-part .item-right i{
+        display: none;
+    }
+    #about-part .item-top{
+        margin: 15px 0;
+    }
+    #about-part .item-bottom{
+        margin: 15px 0;
+    }
+    #about-part .item-left{
+        margin: 15px 0;
+    }
+    #about-part .item-right{
+        margin: 15px 0;
+    }
+    #about-part .round {
+        width: 300px;
+        height: 300px;
+    }
+    #about-part .round .img {
+        width: 280px;
+        height: 280px;
+    }
+
+    #portfolio-part {
+        clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 100%);
+        margin-top: 50px;
+    }
+    #portfolio-part .overlay {
+        padding: 50px 0;
+    }
+
+    #service-part {
+        margin-top: 70px;
+    }
+    #service-part .line {
+        width: 0px;
+    }
+    #service-part .service .details .shape{
+        display: none;
+    }
+    #service-part .service {
+        flex-direction: column;
+    }
+    #service-part .service .details {
+        width: 100%;
+    }
+    #service-part .service:nth-child(2n+1) {
+        flex-direction: column;
+    }
+    #service-part .service .title {
+        width: 100%;
+        justify-content: center;
+    }
+    #service-part .service:nth-child(2n+1) .title {
+        justify-content: center;
+    }
+    #service-part .service .logo {
+        width: 100%;
+        margin: 25px 0;
+    }
+    #service-part .prev {
+        top: 70px;
+        left: 10%;
+    }
+    #service-part .next {
+        top: 70px;
+        left: 90%;
+    }
+    #service-part .service .title h1 {
+        font-size: 25px;
+    }
+    #service-part .service .details p {
+        padding: 20px 8px;
+    }
+    #portfolio-part .team-dot .dot {
+        width: 0px;
+    }
+    #portfolio-part .bg {
+        padding: 25px 15px;
+        margin-left: 0px;
+        width: auto;
+        margin-top: 20px;
+    }
+    #portfolio-part .bg .shape {
+        top: 0;
+        left: 50%;
+    }
+    #pricing-part .item {
+        margin-top: 25px;
+    }
+
+    #counter-part {
+        margin-top: 90px;
+        clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 100%);
+    }
+    #counter-part .angel {
+        transform: rotate(0deg);
+    }
+    #counter-part .overlay {
+        padding: 30px 0;
+    }
+    #counter-part .overlay .item {
+        margin: 15px 0;
+    }
+
+    #team-part {
+        margin-top: 70px;
+    }
+    #team-part .item {
+        margin-top: 30px;
+    }
+
+    #market-part {
+        margin-top: 40px;
+        padding: 30px 0;
+        clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 100%);
+    }
+    #market-part .angel {
+        transform: rotate(0deg);
+    }
+    #market-part .slick-center {
+        border-color: #444;
+    }
+
+    #bottom-part .border {
+        transform: rotate(0deg);
+        margin-top: 30px;
+    }
+    #bottom-part .item {
+        margin: 15px 0;
+        border-left: none;
+    }
+
+
+
+}
+
+@media (min-width: 768px) and (max-width:991px){
+    nav i{
+        color: #fff;
+    }
+    nav ul{
+        background: #444444;
+        text-align: center;
+    }
+    nav ul li a::after{
+        display: none;
+    }
+    #banner-part .banner-1{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    #banner-part .banner-2{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    #banner-part .banner-3{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    #banner-part .overlay {
+        padding: 100px 0;
+    }
+    #banner-part .prev{
+        top: 60%;
+    }
+    #banner-part .next{
+        top: 60%;
+    }
+    #about-part .item-top .shape{
+        display: none;
+    }
+    #about-part .item-top i{
+        display: none;
+    }
+    #about-part .item-bottom .shape{
+        display: none;
+    }
+    #about-part .item-bottom i{
+        display: none;
+    }
+    #about-part .item-left .shape{
+        display: none;
+    }
+    #about-part .item-left i{
+        display: none;
+    }
+    #about-part .item-right .shape{
+        display: none;
+    }
+    #about-part .item-right i{
+        display: none;
+    }
+    #about-part .item-top{
+        margin: 15px 0;
+    }
+    #about-part .item-bottom{
+        margin: 15px 0;
+    }
+    #about-part .item-left{
+        margin: 15px 0;
+    }
+    #about-part .item-right{
+        margin: 15px 0;
+    }
+    #portfolio-part {
+        margin-top: 70px;
+        clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 100%);
+    }
+    #portfolio-part .overlay {
+        padding: 50px 0;
+    }
+    #service-part {
+        margin-top: 50px;
+    }
+    #service-part .service .logo {
+        width: 100%;
+    }
+    #service-part .service {
+        flex-direction: column;
+    }
+    #service-part .service:nth-child(2n+1) {
+        flex-direction: column;
+    }
+    #service-part .service .title {
+        width: 100%;
+        justify-content: center;
+    }
+    #service-part .service:nth-child(2n+1) .title {
+        justify-content: center;
+    }
+    #service-part .service .details {
+        width: 100%;
+    }
+    #service-part .line {
+        width: 0px;
+    }
+    #service-part .service .logo .round {
+        margin: 27px 0;
+    }
+    #service-part .service .title h1 {
+        font-size: 25px;
+    }
+    #service-part .service .details p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        color: #444;
+        padding: 30px 24px;
+    }
+    #portfolio-part .team-dot .dot {
+        width: 0px;
+    }
+    #portfolio-part .bg {
+        padding: 40px 20px;
+        width: auto;
+        margin-top: 40px;
+        margin-left: 0;
+    }
+    #portfolio-part .bg .shape {
+        top: 0;
+        left: 50%;
+    }
+    #portfolio-part .bg p {
+        margin-top: 15px;
+    }
+
+    #pricing-part {
+        margin-top: 50px;
+    }
+    #pricing-part .item {
+        margin-top: 30px;
+    }
+    #counter-part {
+        margin-top: 50px;
+        clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 100%);
+    }
+    #counter-part .angel {
+        transform: rotate(0deg);
+    }
+    #counter-part .overlay {
+        padding: 10px 0;
+    }
+    #counter-part .overlay .item {
+        padding: 20px 55px;
+        margin: 10px 10px;
+    }
+
+    #team-part {
+        margin-top: 50px;
+    }
+    #team-part .item {
+        margin-top: 20px;
+    }
+
+    #market-part {
+        margin-top: 50px;
+        padding: 15px 0;
+        clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 100%);
+    }
+    #market-part .angel {
+        transform: rotate(0deg);
+    }
+    #bottom-part {
+        margin-top: -80px;
+    }
+    #bottom-part .border {
+        transform: rotate(0deg);
+        margin-top: 30px;
+    }
+    #bottom-part .item {
+        height: 110px;
+        margin: 20px 0;
+        border-left: none;
+    }
+
+}
+
+@media(min-width: 992px) and (max-width: 1199px){
+    nav ul li {
+        margin-left: 2px;
+    }
+    #about-part .round .img {
+        width: 190px;
+        height: 190px;
+    }
+    #about-part .round {
+        width: 220px;
+        height: 220px;
+    }
+    #about-part .item-left {
+        margin-top: 0px;
+    }
+    #about-part .item-right {
+        margin-top: 0px;
+    }
+    #about-part .item-left i {
+        left: 351px;
+    }
+    #about-part .item-right i {
+        left: -70px;
+    }
+    #about-part .item-bottom {
+        margin-top: 10px;
+    }
+    #about-part .item-top {
+        margin-top: 50px;
+    }
+    #banner-part .overlay {
+        padding: 150px 0;
+    }
+    #portfolio-part {
+        margin-top: 50px;
+    }
+    #service-part {
+        margin-top: 50px;
+    }
+    #service-part .line {
+        height: 820px;
+    }
+    #counter-part .angel {
+        transform: rotate(-6deg);
+    }
+    #team-part .item .icon {
+        padding: 0px 10px;
+    }
+    #market-part .angel {
+        transform: rotate(-5deg);
+    }
+    #bottom-part .item p {
+        font-size: 13px;
+    }
+
+}
+
+@media(min-width: 1200px) and (max-width: 1399px){
+    #about-part .round {
+        width: 300px;
+        height: 300px;
+    }
+    #about-part .round .img {
+        width: 270px;
+        height: 270px;
+    }
+    #about-part .item-left i {
+        right: -60px;
+    }
+    #about-part .item-right i {
+        left: -60px;
+    }
+    #about-part .item-top {
+        margin-top: 50px;
+    }
+    #about-part .item-bottom {
+        margin-bottom: 0px;
+    }
+    #counter-part .angel {
+        transform: rotate(-5.5deg);
+    }
+    #counter-part .overlay .item {
+        padding: 20px 40px;
+    }
+    #market-part .angel {
+        transform: rotate(-5deg);
+    }
+}
